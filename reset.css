@@ -1,6 +1,8 @@
 /* site-wide CSS */
 @import url('https://fonts.googleapis.com/css?family=Hind');
 /* CSS Variables for colors */
+/* These variables can be overwritten after doing an @import, but using the :root selector in the hubflex settings > scripts */
+/* to import this css file: @import url('https://raw.githubusercontent.com/firemouth55/Xurli/master/reset.css'); */
 :root {
     --primary: lightslategrey; 
     --secondary: darkslategrey; /* footer */
@@ -12,6 +14,7 @@
     --alpha: transparent; 
     --gradient1: linear-gradient(var(--primary), var(--secondary));
     --gradient2: linear-gradient(var(--accent2), var(--secondary));
+    --header-font: 'Hind', sans-serif;
 }
 
 
@@ -27,6 +30,7 @@ div.header_image_wrapper > div.headerleftcontent h1, div.header_image_wrapper > 
     color: var(--accent);
     text-shadow: 3px 3px var(--darkshadow);
     font-family: 'Hind', sans-serif;
+    font-family: var(--header-font);
 }
 
 /* Call us number */
