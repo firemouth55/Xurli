@@ -1,0 +1,44 @@
+<h4>We Accept</h4>
+<!-- Payment row -->
+<div class='row'>
+<!-- Cash -->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/cash.png" alt="Cash"  class="aligncenter size-full" />
+</div>
+<!-- Check -->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/checkbook.png" alt="Check"  class="aligncenter size-full" />
+</div>
+<!-- American Express-->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/american-express.png" alt="American Express"  class="aligncenter size-full" />
+</div>
+<!-- Discover -->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/discover.png" alt="Discover Card" class="aligncenter  size-full" />
+</div>
+<!-- Master Card -->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/mastercard.png" alt="Master Card"  class="aligncenter size-full" />
+</div>
+<!-- Visa -->
+<div class='img-container col-xs-6 col-md-4'>
+<!-- insert icon image here -->
+<img src="http://18031602.1minutewebsites.com/wp-content/uploads/2018/07/visa.png" alt="Visa"  class="aligncenter size-full" />
+</div>
+<!-- end of cols -->
+</div>
+<!-- end of row -->
+
+<hr />
+
+<h4>Location Map</h4>
+<div class="embed-responsive">
+<!-- iframe goes here for google map -->
+<iframe class="embed-responsive-item" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225325.79555875526!2d-82.08841375662246!3d28.063706246193078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd38b2df0f0007%3A0x29d1320fb8a2d508!2sLakeland%2C+FL!5e0!3m2!1sen!2sus!4v1521221228760" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>

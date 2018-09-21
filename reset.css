@@ -1,0 +1,86 @@
+/* site-wide CSS */
+@import url('https://fonts.googleapis.com/css?family=Hind');
+/* CSS Variables for colors */
+:root {
+    --primary: lightslategrey; 
+    --secondary: darkslategrey; /* footer */
+    --accent: gold; /* nav bar */
+    --accent2: slategrey;
+    --background: white;
+    --darkshadow: rgba(0, 0, 0, .2);
+    --lightshadow: rgba(0, 0, 0, .1);
+    --alpha: transparent; 
+    --gradient1: linear-gradient(var(--primary), var(--secondary));
+    --gradient2: linear-gradient(var(--accent2), var(--secondary));
+}
+
+
+.main {
+    background: white !important; 
+    background: var(--gradient1) !important;
+}
+/* header */
+.bgwrap {
+    background: var(--primary);
+}
+div.header_image_wrapper > div.headerleftcontent h1, div.header_image_wrapper > div.headerleftcontent p {
+    color: var(--accent);
+    text-shadow: 3px 3px var(--darkshadow);
+    font-family: 'Hind', sans-serif;
+}
+
+/* Call us number */
+.outlinewrapper {
+    text-shadow: 3px 3px rgba(0, 0, 0, .1) !important;
+    text-shadow: 3px 3px var(--lightshadow) !important;
+    color: white; 
+    color: var(--background);   
+}
+/* nav bar */
+.transbg {
+    background: gold !important;
+    background: var(--accent) !important;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px var(--darkshadow);
+}
+/* current menu item */
+.header .primary .navpc li:hover, .header .primary .navpc .current_menu {
+    background-color: transparent !important;
+    background-color: var(--alpha) !important;
+}
+.header .primary .navpc li:hover > a, .header .primary .navpc ul ul :hover > a, .header .primary .navpc .current_menu {
+    color: darkslategrey !important;
+    color: var(--secondary) !important;
+    text-decoration: underline;
+}
+/* squared current page */
+.header .primary .navpc li:hover, .header .primary .navpc .current_menu {
+    border-radius: 0 !important;
+}
+/* sidebar style */
+td.changetablebgleft, td.changetablebgcenter, td.changetablebgright {
+    background: none;
+}
+td.changetablebgcenter > h3 {
+    background: linear-gradient(slategrey, darkslategrey);
+    background: var(--gradient2);
+    width: 100%;
+    padding: 0.5em .25em;
+    border-radius: 5px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px var(--lightshadow);
+    text-align: center;
+}
+/* page content containers */
+.main_page_wrap.clear_fix_new {
+    border-radius: 0;
+    border: none;
+    background: transparent !important;
+    background: var(--alpha) !important;
+}
+
+/* footer */
+footer {
+    background-color: darkslategrey !important;
+    background-color: var(--secondary) !important;
+}

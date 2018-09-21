@@ -1,0 +1,21 @@
+$business_info = [
+    "[Business Name]" => "SOME BUSINESS",    
+    "[Slogan]"        => "SLOGAN",
+    "[City]"          => "CITY",
+    "[Start Year]"    => "YEAR",
+    "[Phone Number]"  => "PHONE NUMBER",
+    "[Industry]"      => "INDUSTRY Services",
+    "[Address1]"      => "ADDRESS 1",
+    "[Address2]"      => "ADDRESS 2",
+    ];
+
+/* Replace $temp with Slogan */
+function replace_content($content) {
+    global $business_info;
+    foreach($business_info as $key=>$value) {
+        $content = str_replace($key, $value, $content);
+    }
+    return $content;
+}
+
+add_filter('the_content', 'replace_content');
