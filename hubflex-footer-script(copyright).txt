@@ -1,0 +1,21 @@
+<script>
+var company = "Copyright by <some business name>";
+var hyphen = " - ";
+var copy = "&copy;";
+var copyright = document.getElementsByClassName('extendedfooter');
+var year = (new Date()).getFullYear() + " ";
+
+var xurli = "Provided by <a href='http://xurli.com/'>Xurli</a>";
+var hubflex = "Powered by <a href='http://hubflx.com/'>hubflx</a> ";
+
+var _comp = copy + year + company + hyphen;
+var _xurli = copy + year + xurli + hyphen;
+var _hubflex = copy + year + hubflex;
+
+
+copyright[0].innerHTML = _comp + _xurli + _hubflex;
+</script>
+
+
+//
+"&copy; " + year + "Copyright by Philip Reid & Sons - &copy; " + year + " Provided by <a href='http://xurli.com/'>Xurli</a> - &copy; " + year + " Powered by <a href='http://hubflx.com/'>hubflx</a>"
