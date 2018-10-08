@@ -1,4 +1,4 @@
-
+console.log('hubflex copyright footer loaded');
 var company = "Copyright by " + document.title;
 var hyphen = " - ";
 var copy = "&copy;";
@@ -14,3 +14,4 @@ var _hubflex = copy + year + hubflex;
 
 
 copyright[0].innerHTML = _comp + _xurli + _hubflex;
+console.log('footer processed', _comp + _xurli + _hubflex);
